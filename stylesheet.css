@@ -36,6 +36,43 @@
     width: 10%;
     height: auto;
     position: relative;
-    top: 0;
-    left: 0;
+}
+
+#scroll-down-div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 5em;
+}
+
+#scroll-down-img {
+    width: 10%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+#intro-page-div>p {
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 0.9em;
+    letter-spacing: 0.25em;
+    line-height: 2em;
+}
+
+#intro-page-div {
+    text-align: center;
+    color: #FF5252;
 }
