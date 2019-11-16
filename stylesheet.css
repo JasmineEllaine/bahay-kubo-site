@@ -147,7 +147,7 @@ h2 {
 }
 
 .navbar-color-7 {
-    background-color: #FFE9AE;
+    background-color: #f8c291;
 }
 
 .navbar-color-8 {
@@ -231,7 +231,7 @@ td.navbar-color:hover {
 
 .food-page-content-dish-name {
     font-family: 'Bebas Neue';
-    font-size: 6em;
+    font-size: 5em;
     letter-spacing: 0.1em;
     line-height: 0.72em;
     color: white;
@@ -355,6 +355,27 @@ li>a:hover {
 
 #chicken-page {
     background-color: #F4B523;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#mango-page {
+    background-color: #FED330;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#nutella-page {
+    background-color: #f8c291;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#pho-page {
+    background-color: #A3CB38;
     height: 100vh;
     width: 100vw;
     position: relative;
