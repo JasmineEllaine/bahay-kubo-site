@@ -3,10 +3,10 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
 <!--<![endif]-->
 
 <head>
+    <a name="page-top"></a>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
@@ -14,18 +14,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="food-web.js"></script>
 </head>
 
 <body class="no-margin">
     <!-- Title page -->
     <section id="title-page" class="no-margin">
-        <img src="images/title-name.png" id="title-page-logo">
+        <a href="#page-top"><img src="images/title-name.png" id="title-page-logo"></a>
     </section>
 
     <!-- Intro page -->
     <section id="intro-page" class="no-margin">
         <div id="logo-small-div">
-            <img src="images/small-logo-red.png" id="logo-small-img" />
+            <a href="#page-top" class="logo-small-link"><img src="images/small-logo-red.png" id="logo-small-img" class="logo-link" />
+                <img src="images/small-logo-white.png" id="logo-small-img" class="logo-link-hover" /></a>
         </div>
         <div id="intro-page-div">
             <h2>WHO WE ARE</h2>
@@ -35,12 +37,13 @@
             <p>Wanna know what this week’s selection is?</p>
         </div>
         <div id="scroll-down-div">
-            <img src="images/scroll-down.png" id="scroll-down-img" />
+            <a href="#food-start"><img src="images/scroll-down.png" id="scroll-down-img" /></a>
         </div>
     </section>
 
     <!-- Food page -->
     <section id="pizza-page" class="no-margin">
+        <a name="food-start"></a>
         <div id="pizza-page-div" class="no-margin">
             <div id="pizza-page-left" class="pizza-page-contents">
                 <div id="logo-small-white-div">
@@ -95,7 +98,6 @@
             </table>
         </div>
     </section>
-    <script src="" async defer></script>
 </body>
 
 </html>

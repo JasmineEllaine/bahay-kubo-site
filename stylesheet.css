@@ -19,6 +19,22 @@
     transform: translateY(-40%);
 }
 
+#title-page-logo:hover {
+    position: relative;
+    top: 50%;
+    transform: translateY(-38%);
+}
+
+.logo-link-hover,
+.logo-small-link:hover .logo-link {
+    display: none
+}
+
+.logo-link,
+.logo-small-link:hover .logo-link-hover {
+    display: block
+}
+
 #intro-page {
     background: url("images/intro-bg.png");
     background-size: cover;
@@ -50,6 +66,11 @@
     height: auto;
     position: relative;
     bottom: 0;
+}
+
+#scroll-down-img:hover {
+    position: relative;
+    bottom: -10px;
 }
 
 h2 {
