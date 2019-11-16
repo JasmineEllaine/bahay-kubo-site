@@ -2,6 +2,16 @@
     margin: 0;
 }
 
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.food {
+    display: inline-block;
+}
+
 #title-page {
     background: url("images/title-bg.png");
     background-size: cover;
@@ -28,7 +38,7 @@
     z-index: -1;
 }
 
-#content {
+.content {
     display: block;
     position: relative;
     background-color: white;
@@ -303,6 +313,7 @@ td.navbar-color:hover {
 .food-page-content-dish {
     height: 35%;
     position: relative;
+    white-space: normal !important;
 }
 
 .food-page-content-dish-group {
