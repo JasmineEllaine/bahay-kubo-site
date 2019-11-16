@@ -195,9 +195,9 @@ h2 {
 
 .food-page-content-dish-name {
     font-family: 'Bebas Neue';
-    font-size: 4em;
+    font-size: 6em;
     letter-spacing: 0.1em;
-    line-height: 0.75em;
+    line-height: 0.72em;
     color: white;
     text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
     margin: 0;
@@ -228,29 +228,44 @@ h2 {
     padding-right: 8vw;
 }
 
-
-/* 
-h2 {
-    font-family: 'Bebas Neue';
-    font-size: 4em;
-    letter-spacing: 0.1em;
-    margin: 0;
+li {
+    list-style: none;
+    padding-bottom: 2.5em;
 }
 
-#intro-page-div>p {
-    max-width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
-    margin-top: 2em;
+#pizza-page-right {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 0.9em;
-    letter-spacing: 0.25em;
-    line-height: 2em;
+    font-weight: 900;
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+    text-align: right;
+    color: white;
+    text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    display: block;
+    position: relative;
 }
 
-#intro-page-div {
-    text-align: center;
-    color: #FF5252;
-} */
+.navbar-top-right-div {
+    width: 100%;
+    height: 30%;
+}
+
+.navbar-bottom-right-div {
+    width: 100%;
+    height: 60%;
+}
+
+.navbar-top-right-ul,
+.navbar-bottom-right-ul {
+    margin: 0;
+    padding-right: 4vw;
+}
+
+.navbar-top-right-ul {
+    padding-top: 4vw;
+}
+
+.navbar-bottom-right-ul {
+    transform: translateY(35%);
+}
