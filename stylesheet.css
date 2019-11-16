@@ -156,6 +156,9 @@ h2 {
 
 td.navbar-color:hover {
     background-color: rgba(255, 255, 255, 0.3) !important;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
 }
 
 .navbar-color-links {
@@ -429,6 +432,9 @@ li>a:hover {
 
 #contact-bottom-left:hover {
     background-color: #3c40c6;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
 }
 
 #contact-bottom-right {
@@ -436,7 +442,10 @@ li>a:hover {
 }
 
 #contact-bottom-right:hover {
-    background-color: #0fbcf9;
+    background-color: #1e90ff;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
 }
 
 .contact-icon {
