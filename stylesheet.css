@@ -186,13 +186,19 @@ h2 {
     transform: translateY(-50%);
 }
 
+#pizza-img:hover {
+    position: relative;
+    top: 50%;
+    transform: translateY(-52%);
+}
+
 #logo-small-white-div {
     display: block;
     padding: 2vw;
     height: 20%;
 }
 
-#logo-small-white-img {
+.logo-small-white-img {
     width: 10vw;
     height: auto;
     position: relative;
@@ -255,16 +261,33 @@ li {
 }
 
 #pizza-page-right {
+    margin: 0;
+    display: block;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 0.8em;
     letter-spacing: 0.3em;
     text-align: right;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
-    margin: 0;
-    display: block;
-    position: relative;
+    text-decoration: none;
+}
+
+li>a:link,
+li>a:visited {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
+
+li>a:hover {
+    color: rgba(255, 255, 255, 1);
 }
 
 .navbar-top-right-div {
