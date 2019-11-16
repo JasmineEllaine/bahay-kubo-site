@@ -17,12 +17,15 @@
     position: relative;
     top: 50%;
     transform: translateY(-40%);
+    transition: transform 1s;
 }
 
 #title-page-logo:hover {
     position: relative;
     top: 50%;
     transform: translateY(-38%);
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
 }
 
 .logo-link-hover,
@@ -66,11 +69,14 @@
     height: auto;
     position: relative;
     bottom: 0;
+    transition: 0.5s;
 }
 
 #scroll-down-img:hover {
     position: relative;
-    bottom: -10px;
+    bottom: -20px;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
 }
 
 h2 {
@@ -159,6 +165,7 @@ td.navbar-color:hover {
     -webkit-transition: background-color 500ms linear;
     -ms-transition: background-color 500ms linear;
     transition: background-color 500ms linear;
+    transition: 0.5s;
 }
 
 .navbar-color-links {
@@ -196,12 +203,15 @@ td.navbar-color:hover {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    transition: 0.5s;
 }
 
 .food-img:hover {
     position: relative;
     top: 50%;
-    transform: translateY(-52%);
+    transform: translateY(-60%);
+    transition-property: transform;
+    transition-duration: 0.5s;
 }
 
 .logo-small-white-div {
@@ -230,6 +240,12 @@ td.navbar-color:hover {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    transition: 0.5s;
+}
+
+.food-page-content-dish-about:hover {
+    font-size: 1em;
+    transition: 0.5s;
 }
 
 .food-page-content-dish-name {
@@ -240,6 +256,12 @@ td.navbar-color:hover {
     color: white;
     text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
     margin: 0;
+    transition: 0.5s;
+}
+
+.food-page-content-dish-name:hover {
+    font-size: 6em;
+    transition: 0.5s;
 }
 
 .food-page-content-type {
@@ -305,10 +327,13 @@ li>a:visited {
     color: rgba(255, 255, 255, 0.5);
     text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
     text-decoration: none;
+    transition: 0.3s;
 }
 
 li>a:hover {
     color: rgba(255, 255, 255, 1);
+    font-size: 1.5em;
+    transition-duration: 0.3s;
 }
 
 .navbar-top-right-div {
@@ -411,6 +436,16 @@ li>a:hover {
 #contact-arrow-img {
     height: 70%;
     width: auto;
+    position: relative;
+    top: 0px;
+    transition: 0.4s;
+}
+
+#contact-arrow-img:hover {
+    position: relative;
+    top: 30px;
+    transition: 0.4s;
+    transition-timing-function: ease-out;
 }
 
 #contact-bottom-left,
