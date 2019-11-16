@@ -54,7 +54,7 @@
 
 h2 {
     font-family: 'Bebas Neue';
-    font-size: 3.75em;
+    font-size: 4em;
     letter-spacing: 0.1em;
     margin: 0;
 }
@@ -67,7 +67,7 @@ h2 {
     margin-top: 2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 0.25em;
     line-height: 2em;
 }
@@ -75,4 +75,60 @@ h2 {
 #intro-page-div {
     text-align: center;
     color: #FF5252;
+}
+
+#pizza-page {
+    background: #E74C3C;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#navbar-colors-div {
+    position: absolute;
+    bottom: 0;
+}
+
+#navbar-colors-table {
+    border-collapse: collapse;
+}
+
+.navbar-color {
+    width: 12.5vw;
+    height: 5vh;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-color-1 {
+    background-color: #E74C3C;
+}
+
+#navbar-color-2 {
+    background-color: #FF5252;
+}
+
+#navbar-color-3 {
+    background-color: #FF7979;
+}
+
+#navbar-color-4 {
+    background-color: #FD9644;
+}
+
+#navbar-color-5 {
+    background-color: #F4B523;
+}
+
+#navbar-color-6 {
+    background-color: #FED330;
+}
+
+#navbar-color-7 {
+    background-color: #FFE9AE;
+}
+
+#navbar-color-8 {
+    background-color: #A3CB38;
 }
