@@ -47,11 +47,11 @@ span#filler {
 }
 
 #filler {
-    padding-left: 40vw;
+    padding-left: 25em;
 }
 
 #date-time {
-    padding-right: 2vw;
+    padding-right: 2em;
 }
 
 .div-center-horizontal {
@@ -64,4 +64,33 @@ span#filler {
     background-color: #0666a3;
     text-align: center;
     width: 100%;
+}
+
+.navbar-bottom-icon-img {
+    max-width: 20%;
+    height: 5vw;
+}
+
+.navbar-bottom-icon {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#navbar-bottom {
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#navbar-bottom-div {
+    width: 25vw;
+    height: auto;
+    position: relative;
+}
+
+.navbar-bottom-icon {
+    display: inline;
+    text-decoration: none;
 }
