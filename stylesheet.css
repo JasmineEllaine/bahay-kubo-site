@@ -132,3 +132,125 @@ h2 {
 #navbar-color-8 {
     background-color: #A3CB38;
 }
+
+#pizza-page-div {
+    width: 100vw;
+    height: 95vh;
+    display: inline-block;
+}
+
+#pizza-page-left,
+#pizza-page-right {
+    width: 37.5vw;
+}
+
+#pizza-page-center {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+.pizza-page-contents {
+    float: left;
+    height: 100%;
+}
+
+#pizza-img {
+    width: 80%;
+    height: auto;
+    -webkit-filter: drop-shadow(12px 8px 12px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(12px 8px 12px rgba(0, 0, 0, 0.3));
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#logo-small-white-div {
+    display: block;
+    padding: 2vw;
+    height: 20%;
+}
+
+#logo-small-white-img {
+    width: 10vw;
+    height: auto;
+    position: relative;
+}
+
+.food-page-content-dish-about {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 0.9em;
+    letter-spacing: 0.5em;
+    line-height: 2em;
+    color: white;
+    text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+    padding-left: 4vw;
+    padding-right: 8vw;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.food-page-content-dish-name {
+    font-family: 'Bebas Neue';
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    line-height: 0.75em;
+    color: white;
+    text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
+    margin: 0;
+}
+
+.food-page-content-type {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 0.9em;
+    letter-spacing: 0.3em;
+    color: white;
+    text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+.food-page-content-text,
+.food-page-content-dish {
+    height: 35%;
+    position: relative;
+}
+
+.food-page-content-dish-group {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 4vw;
+    padding-left: 4vw;
+    padding-right: 8vw;
+}
+
+
+/* 
+h2 {
+    font-family: 'Bebas Neue';
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+#intro-page-div>p {
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 0.9em;
+    letter-spacing: 0.25em;
+    line-height: 2em;
+}
+
+#intro-page-div {
+    text-align: center;
+    color: #FF5252;
+} */
