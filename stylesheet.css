@@ -11,6 +11,30 @@
     vertical-align: middle;
 }
 
+.main-container {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.parallax {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    height: 100vh;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+#content {
+    display: block;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
 #title-page-logo {
     width: 40%;
     height: auto;
