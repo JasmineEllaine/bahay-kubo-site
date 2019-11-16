@@ -105,12 +105,12 @@ h2 {
     position: relative;
 }
 
-#navbar-colors-div {
+.navbar-colors-div {
     position: absolute;
     bottom: 0;
 }
 
-#navbar-colors-table {
+.navbar-colors-table {
     border-collapse: collapse;
 }
 
@@ -122,39 +122,35 @@ h2 {
     padding: 0;
 }
 
-#navbar-color-1 {
+.navbar-color-1 {
     background-color: #E74C3C;
 }
 
-#navbar-color-1:hover {
-    background-color: rgba(231, 76, 60, 0.5);
-}
-
-#navbar-color-2 {
+.navbar-color-2 {
     background-color: #FF5252;
 }
 
-#navbar-color-3 {
+.navbar-color-3 {
     background-color: #FF7979;
 }
 
-#navbar-color-4 {
+.navbar-color-4 {
     background-color: #FD9644;
 }
 
-#navbar-color-5 {
+.navbar-color-5 {
     background-color: #F4B523;
 }
 
-#navbar-color-6 {
+.navbar-color-6 {
     background-color: #FED330;
 }
 
-#navbar-color-7 {
+.navbar-color-7 {
     background-color: #FFE9AE;
 }
 
-#navbar-color-8 {
+.navbar-color-8 {
     background-color: #A3CB38;
 }
 
@@ -167,29 +163,29 @@ td.navbar-color:hover {
     height: 100%;
 }
 
-#pizza-page-div {
+.food-page-div {
     width: 100vw;
     height: 95vh;
     display: inline-block;
 }
 
-#pizza-page-left,
-#pizza-page-right {
+.food-page-left,
+.food-page-right {
     width: 37.5vw;
 }
 
-#pizza-page-center {
+.food-page-center {
     width: 25%;
     height: 100%;
     text-align: center;
 }
 
-.pizza-page-contents {
+.food-page-contents {
     float: left;
     height: 100%;
 }
 
-#pizza-img {
+.food-img {
     width: 80%;
     height: auto;
     -webkit-filter: drop-shadow(12px 8px 12px rgba(0, 0, 0, 0.3));
@@ -199,13 +195,13 @@ td.navbar-color:hover {
     transform: translateY(-50%);
 }
 
-#pizza-img:hover {
+.food-img:hover {
     position: relative;
     top: 50%;
     transform: translateY(-52%);
 }
 
-#logo-small-white-div {
+.logo-small-white-div {
     display: block;
     padding: 2vw;
     height: 20%;
@@ -273,7 +269,7 @@ li {
     padding-bottom: 2.5em;
 }
 
-#pizza-page-right {
+.food-page-right {
     margin: 0;
     display: block;
     position: relative;
@@ -285,6 +281,15 @@ li {
     color: rgba(255, 255, 255, 0.5);
     text-shadow: -6px 6px 12px rgba(0, 0, 0, 0.4);
     text-decoration: none;
+}
+
+li.navbar-active>a:link,
+li.navbar-active>a:visited {
+    color: rgba(255, 255, 255, 1);
+}
+
+li.navbar-active>a:hover {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 li>a:link,
@@ -325,4 +330,32 @@ li>a:hover {
 
 .navbar-bottom-right-ul {
     transform: translateY(35%);
+}
+
+#curry-page {
+    background-color: #FF5252;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#berry-page {
+    background-color: #FF7979;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#seafood-page {
+    background-color: #FD9644;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#chicken-page {
+    background-color: #F4B523;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
 }
