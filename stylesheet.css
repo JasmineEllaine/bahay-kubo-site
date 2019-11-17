@@ -60,6 +60,7 @@
     position: relative;
     top: 50%;
     transform: translateY(-40%);
+    transition-duration: 0.5s;
 }
 
 #title-page-logo:hover {
