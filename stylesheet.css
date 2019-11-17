@@ -12,6 +12,10 @@
     display: inline-block;
 }
 
+.food:not(:first-child) {
+    margin-left: -4px;
+}
+
 #title-page {
     background: url("images/title-bg.png");
     background-size: cover;
