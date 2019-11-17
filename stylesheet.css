@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
 .no-margin {
     margin: 0;
 }
