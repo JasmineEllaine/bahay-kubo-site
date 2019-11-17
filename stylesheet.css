@@ -16,6 +16,11 @@
     margin-left: -4px;
 }
 
+.anchor-food {
+    width: 100%;
+    visibility: hidden;
+}
+
 #title-page {
     background: url("images/title-bg.png");
     background-size: cover;
