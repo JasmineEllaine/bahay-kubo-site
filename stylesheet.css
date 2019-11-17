@@ -387,7 +387,8 @@ li>a:hover {
 .navbar-bottom-right-div {
     width: 100%;
     height: 65%;
-    position: relative;
+    position: absolute;
+    bottom: 0
 }
 
 .navbar-top-right-ul,
@@ -406,6 +407,7 @@ li>a:hover {
     position: absolute;
     bottom: 0;
     right: 0;
+    padding-bottom: 4vw;
 }
 
 #curry-page {
