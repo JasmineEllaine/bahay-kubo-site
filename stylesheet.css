@@ -60,25 +60,24 @@
     position: relative;
     top: 50%;
     transform: translateY(-40%);
-    transition: transform 1s;
 }
 
 #title-page-logo:hover {
     position: relative;
     top: 50%;
-    transform: translateY(-38%);
+    transform: translateY(-45%);
     transition-duration: 0.7s;
     transition-timing-function: ease-out;
 }
 
 .logo-link-hover,
 .logo-small-link:hover .logo-link {
-    display: none
+    display: none;
 }
 
 .logo-link,
 .logo-small-link:hover .logo-link-hover {
-    display: block
+    display: block;
 }
 
 #intro-page {
@@ -507,6 +506,7 @@ li>a:hover {
 
 #contact-bottom-left {
     background-color: #778beb;
+    transition: 0.5s;
 }
 
 #contact-bottom-left:hover {
@@ -518,6 +518,7 @@ li>a:hover {
 
 #contact-bottom-right {
     background-color: #63cdda;
+    transition: 0.5s;
 }
 
 #contact-bottom-right:hover {
